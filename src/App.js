@@ -2636,27 +2636,46 @@ const AttendanceRecapSystem = () => {
         <div className="mt-3 sm:mt-4 flex flex-wrap gap-2 sm:gap-3">
           <button
             onClick={downloadSummaryAsPdf}
-            className="bg-white bg-opacity-20 text-white text-xs sm:text-sm px-3 sm:px-4 py-2 rounded-lg hover:bg-opacity-30 flex items-center gap-1.5 sm:gap-2 flex-1 sm:flex-initial justify-center"
+            className="bg-white bg-opacity-20 text-white text-xs sm:text-sm 
+               px-3 sm:px-4 py-2 rounded-lg 
+               hover:bg-opacity-30 flex items-center gap-1.5 sm:gap-2 
+               flex-1 sm:flex-initial justify-center"
           >
-            <Download size={16} /> PDF
+            <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+            PDF
           </button>
+
           <button
             onClick={downloadAllTablesAsExcel}
-            className="bg-white bg-opacity-20 text-white px-4 py-2 rounded-lg hover:bg-opacity-30 flex items-center gap-2"
+            className="bg-white bg-opacity-20 text-white text-xs sm:text-sm 
+               px-3 sm:px-4 py-2 rounded-lg 
+               hover:bg-opacity-30 flex items-center gap-1.5 sm:gap-2 
+               flex-1 sm:flex-initial justify-center"
           >
-            <Download size={16} /> All Table
+            <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+            All Table
           </button>
+
           <button
             onClick={handleCopySummary}
-            className="bg-white bg-opacity-20 text-white px-4 py-2 rounded-lg hover:bg-opacity-30 flex items-center gap-2"
+            className="bg-white bg-opacity-20 text-white text-xs sm:text-sm 
+               px-3 sm:px-4 py-2 rounded-lg 
+               hover:bg-opacity-30 flex items-center gap-1.5 sm:gap-2 
+               flex-1 sm:flex-initial justify-center"
           >
-            <FileText size={16} /> Copy JPG
+            <FileText className="w-4 h-4 sm:w-5 sm:h-5" />
+            Copy JPG
           </button>
+
           <button
             onClick={handleDownloadSummaryJPG}
-            className="bg-white bg-opacity-20 text-white px-4 py-2 rounded-lg hover:bg-opacity-30 flex items-center gap-2"
+            className="bg-white bg-opacity-20 text-white text-xs sm:text-sm 
+               px-3 sm:px-4 py-2 rounded-lg 
+               hover:bg-opacity-30 flex items-center gap-1.5 sm:gap-2 
+               flex-1 sm:flex-initial justify-center"
           >
-            <Download size={16} /> Download JPG
+            <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+            Download JPG
           </button>
         </div>
       </div>
@@ -2689,7 +2708,7 @@ const AttendanceRecapSystem = () => {
             <div className="text-left sm:text-right text-xs sm:text-sm text-gray-500 w-full sm:w-auto">
               <p>Powered by:</p>
               <p>Matsanuba Management Technology</p>
-              <p>Version 1.0 Mobile | © 2025</p>
+              <p>Version 1.0 | © 2025</p>
             </div>
           </div>
           <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 md:mb-8 border-t pt-3 sm:pt-4">
