@@ -2689,7 +2689,7 @@ const AttendanceRecapSystem = () => {
             <div className="text-left sm:text-right text-xs sm:text-sm text-gray-500 w-full sm:w-auto">
               <p>Powered by:</p>
               <p>Matsanuba Management Technology</p>
-              <p>Version 1.0 | © 2025</p>
+              <p>Version 1.0 Mobile | © 2025</p>
             </div>
           </div>
           <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 md:mb-8 border-t pt-3 sm:pt-4">
@@ -3854,7 +3854,7 @@ const AttendanceRecapSystem = () => {
                flex items-center gap-1.5 sm:gap-2 
                shadow-md hover:shadow-lg transition-all"
                     >
-                      <FileText size={18} className="sm:size-20" />
+                      <FileText className="w-4 h-4 sm:w-5 sm:h-5" />
                       Copy JPG
                     </button>
 
@@ -3867,7 +3867,7 @@ const AttendanceRecapSystem = () => {
                flex items-center gap-1.5 sm:gap-2 
                shadow-md hover:shadow-lg transition-all"
                     >
-                      <Download size={18} className="sm:size-20" />
+                      <Download className="w-4 h-4 sm:w-5 sm:h-5" />
                       Download JPG
                     </button>
                   </div>
